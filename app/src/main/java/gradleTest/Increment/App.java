@@ -23,7 +23,7 @@ public class App {
             while(n < 0)
             {
                 total += n;
-                n -= 1;
+                n += 1;
             }
         }
 
