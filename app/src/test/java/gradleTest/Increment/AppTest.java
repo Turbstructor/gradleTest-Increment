@@ -7,11 +7,12 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void AppWorksProperly() {
+    @Test(timeout = 1000) public void AppWorksProperly() {
         assertEquals(App.getSum(5), 15);
         assertEquals(App.getSum(10), 55);
         assertEquals(App.getSum(15), 105);
         assertEquals(App.getSum(20), 210);
+
 
         assertEquals(App.getSum(-5), -15);
         assertEquals(App.getSum(-10), -55);
