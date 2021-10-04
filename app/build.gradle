@@ -28,3 +28,6 @@ application {
     // Define the main class for the application.
     mainClass = 'gradleTest.Increment.App'
 }
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
