@@ -7,25 +7,27 @@ import java.util.Scanner;
 
 public class App {
     public static int total;
+    public static int i;
 
     public static int getSum(int n)
     {
         total = 0;
+        i = n;
 
-        if(n > 0)
+        if(i > 0)
         {
-            while(n > 0)
+            while(i > 0)
             {
-                total += n;
-                n -= 1;
+                total += i;
+                i -= 1;
             }
         }
         else
         {
-            while(n < 0)
+            while(i < 0)
             {
-                total += n;
-                n -= 1;
+                total += i;
+                i += 1;
             }
         }
 
