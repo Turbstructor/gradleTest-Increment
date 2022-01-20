@@ -6,9 +6,11 @@ package gradleTest.Increment;
 import java.util.Scanner;
 
 public class App {
+    public static int total;
+
     public static int getSum(int n)
     {
-        int total = 0;
+        total = 0;
 
         if(n > 0)
         {
