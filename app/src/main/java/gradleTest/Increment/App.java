@@ -27,7 +27,7 @@ public class App {
             while(i < 0)
             {
                 total += i;
-                i -= 1;
+                i += 1;
             }
         }
 
